@@ -35,7 +35,7 @@
             </div>
         </form>
         <br><br>
-        <form action="">
+        <form action="" oninput="x.value = parseInt(a.value) + parseInt(b.value)">
             <div>
                 <div>
                     <input type="text" name="ma" id="ma" >
@@ -86,6 +86,11 @@
                 <div>
                     <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
                     <button type="button" onclick="alert('Click')">Click aqui Dude!!!</button>
+                </div>
+                <div>
+                    0<input type="range" id="a" name="a" value="50">100
+                    <input type="number" id="b" name="b" value="50"> = 
+                    <output name="x" for="a b"></output>
                 </div>
             </div>
         </form>

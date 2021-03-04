@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(to right, rgb(92, 100, 219),rgb(83, 214, 65));
+}
+
+img {
+    width: 500px;
+    padding: 100px;
+}
+
+#img1 {
+    border-radius: 35%;
+    transform: rotate(180deg);
+}
+
+#img2 {
+    border-radius: 35%;
+    filter: grayscale(100%);
+    transform: skewX(45deg)
+}

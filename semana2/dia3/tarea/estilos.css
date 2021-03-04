@@ -1,0 +1,15 @@
+#gradiente-tarea{
+    text-align: center;
+    vertical-align: middle;
+    height:250px;
+    width:695px;
+    border-radius: 65%;
+    background-image: linear-gradient(to left top, green,rgb(81, 106, 187),rgb(192, 219, 95),rgb(255, 154, 2),rgb(136, 98, 27),rgb(93, 93, 145),rgb(214, 20, 20));
+    color:white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+p {
+    padding-top: 80px;
+}

@@ -1,0 +1,84 @@
+#elemento {
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    animation: cert 5s infinite;
+}
+
+img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 400px;
+    border-radius: 15%;
+    animation: gif 5s infinite;
+}
+
+@keyframes cert {
+    0% {
+        background-color: rgb(104, 180, 224);
+    }
+    25% {
+        background-color: rgb(211, 219, 231);
+    }
+    50% {
+        background-color: rgb(125, 176, 235);
+    }
+    75% {
+        background-color: rgb(122, 211, 218);
+    }
+    100% {
+        background-color: rgb(189, 214, 253);
+    }
+}
+
+@keyframes gif {
+    0% {
+        width: 400px;
+        border-radius: 15%;
+        filter: grayscale(30%);
+        
+    }
+    20% {
+        width: 400px;
+        transform:translateX(100px);
+        transform:translateY(-50px);
+        border-radius: 35%;
+        filter: grayscale(50%);
+    }
+    40% {
+        width: 400px;
+        transform:translateX(-50px);
+        border-radius: 15%;
+        filter: grayscale(100%);
+    }
+    60% {
+        width: 400px;
+        transform:translateY(100px);
+        border-radius: 35%;
+        filter: grayscale(50%);
+    }
+    80% {
+        width: 400px;
+        transform:translateX(150px);
+        border-radius: 15%;
+        filter: grayscale(30%);
+    }
+    80% {
+        width: 400px;
+        transform:translateY(-50px);
+        border-radius: 35%;
+        filter: grayscale(30%);
+    }
+    100% {
+        width: 400px;
+        transform:translateX(0px);
+        transform:translateY(0px);
+        border-radius: 15%;
+        filter: grayscale(50%);
+    }
+}
+
+html, body {
+    height: 100%;
+}

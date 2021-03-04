@@ -1,0 +1,48 @@
+*{
+    margin:0
+}
+
+body, html {
+    height: 100%;
+  }
+
+body {
+  background-image: url("https://www.cmtv.com.ar/imagenes_artistas/274.jpg?Sin%20Bandera");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+.artista {
+    color:white;
+    font-weight:bolder;
+}
+#contendor-imagen{
+    padding: 20px;
+    text-align:center;
+}
+img {
+    border-radius:25px;
+    height: 80vh;
+}
+
+footer {
+    padding-top: 20px;
+    color:rgb(0, 0, 0);
+    font-weight:bolder;
+    text-align: center;
+    height:10%;
+    width:100%;
+    background-image: url("https://elfinanciero.com.mx/uploads/2019/11/03/1f88c7c5d71572839718_standard_desktop_fullhd.png");
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
